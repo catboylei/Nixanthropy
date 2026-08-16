@@ -1,17 +1,18 @@
-# Nixanthropy ⨺⃝
+<div align="center">
+<img src="assets/icons/thetadelta-femboy.png" align="center" width="50" style="margin-right: 0px;">
+</div>
 
-
-### My personal Nixos config
-![thetadelta-femboy.png](assets/icons/thetadelta-femboy.png)
-
----
+<div align="center">
+  
+# Nixanthropy
+</div>
 
 ### Screenshots
 
 <table>
   <tr>
-    <td><img src="assets/previews/lockscreen.png" width="45%"></td>
-    <td><img src="assets/previews/desktop.png" width="45%"></td>
+    <td><img src="assets/previews/lockscreen.png" width="100%"></td>
+    <td><img src="assets/previews/desktop.png" width="100%"></td>
   </tr>
 </table>
 
@@ -95,3 +96,9 @@ shell: [fish](https://github.com/fish-shell/fish-shell)\
 lockscreen: [hyprlock](https://github.com/hyprwm/hyprlock/)\
 music player: [rmpc](https://github.com/mierak/rmpc)\
 terminal: [kitty](https://github.com/kovidgoyal/kitty)
+
+---
+
+<div align="center">
+<img src="assets/icons/thetadelta-pink.png" width="30%">
+</div>
