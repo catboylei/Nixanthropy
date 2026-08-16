@@ -14,6 +14,10 @@
     <td><img src="assets/previews/lockscreen.png" width="100%"></td>
     <td><img src="assets/previews/desktop.png" width="100%"></td>
   </tr>
+  <tr>
+    <td><img src="assets/previews/rmpc.png" width="100%"></td>
+    <td><img src="assets/previews/anyrun.png" width="100%"></td>
+  </tr>
 </table>
 
 ---
