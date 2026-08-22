@@ -2,7 +2,10 @@
     # i am a creature of hate
 	services.xserver.videoDrivers = [ "nvidia" ];
 
-	hardware.graphics.enable = true;
+	hardware.graphics = {
+	    enable = true;
+	    enable32Bit = true;
+	};
 	hardware.nvidia = {
 		open = true;
 

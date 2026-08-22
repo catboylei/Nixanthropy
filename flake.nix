@@ -55,6 +55,14 @@
 
 				home-manager.nixosModules.home-manager
 				niri.nixosModules.niri
+
+				{
+                    nixpkgs.overlays = [
+                      (final: prev: {
+                        gale = inputs.nixpkgs.legacyPackages."x86_64-linux".callPackage ./packages/gale.nix { };
+                      })
+                    ];
+                }
 			];
 		};
 	};

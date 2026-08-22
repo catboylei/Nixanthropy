@@ -22,6 +22,9 @@
 			prismlauncher
 			nil
 			gnome-themes-extra # gtk theme
+			pnpm
+			nodejs-slim
+			gale
 
 			(pkgs.callPackage "${self}/packages/awww_randomize" { inherit pkgs self; })
 			(pkgs.callPackage "${self}/packages/awww_switch" { inherit pkgs self; })
