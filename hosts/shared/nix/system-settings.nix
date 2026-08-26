@@ -1,5 +1,23 @@
 { pkgs, inputs, self, ... }: {
 
+
+    xdg.portal = {
+      enable = true;
+      extraPortals = [
+        pkgs.xdg-desktop-portal-gnome
+        pkgs.xdg-desktop-portal-gtk
+      ];
+      config = {
+        common = {
+          default = [ "gnome" "gtk" ];
+        };
+        niri = {
+          default = [ "gnome" "gtk" ];
+          "org.freedesktop.impl.portal.FileChooser" = [ "gtk" ];
+        };
+      };
+    };
+
 	nix.settings.experimental-features = [
 		"nix-command"
 		"flakes"

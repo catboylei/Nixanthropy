@@ -6,7 +6,7 @@
 			spawn-at-startup = [
 				{ argv = [ "anyrun" "daemon" ]; }
 				{ argv = [ "awww-daemon" ]; }
-				{ argv = ["awww_randomize" ]; }
+				{ argv = [ "awww_randomize" ]; }
 				{ argv = [ "paw-bar" ]; }
 				{ argv = [ "hyprlock" ]; }
 				# { argv = [ "kidex" ]; } # file index daemon for anyrun plugin
@@ -65,7 +65,10 @@
 					open-floating = false;
 				}
 				{
-					matches = [ { app-id = "kitty"; } ];
+					matches = [
+						{ app-id = "kitty"; }
+						{ app-id = "xdg-desktop-portal-gtk"; }
+					];
 
 					open-floating = true;
 					default-window-height.proportion = 0.5;
