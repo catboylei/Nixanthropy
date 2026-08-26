@@ -28,6 +28,7 @@
 				#"${pkgs.anyrun}/lib/libkidex.so"
 				#"${pkgs.anyrun}/lib/libsymbols.so"
 				"${pkgs.anyrun}/lib/libnix_run.so"
+				"${pkgs.anyrun}/lib/libniri_focus.so"
 				inputs.anyrun-nixos-options.packages.${pkgs.stdenv.hostPlatform.system}.default
 			];
 		};
