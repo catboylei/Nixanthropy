@@ -36,3 +36,4 @@
 			#inputs.kidex.packages.${pkgs.stdenv.hostPlatform.system}.kidex
 		];
 }
+

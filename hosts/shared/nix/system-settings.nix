@@ -71,9 +71,13 @@
 
 	fonts = {
 		enableDefaultPackages = true;
-		packages = with pkgs; [
+		packages = with pkgs; let
+		    space-mono = pkgs.callPackage "${self}/packages/space-mono.nix" {};
+		in [
 			jetbrains-mono
 			monocraft
+			departure-mono
+			space-mono
 		];
 	};
 }

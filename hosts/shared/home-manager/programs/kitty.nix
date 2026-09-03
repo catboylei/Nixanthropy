@@ -6,7 +6,7 @@
 		settings = {
 			shell = "fish";
 
-			font_family = "Monocraft";
+			font_family = "Departure Mono";
 			font_size = 10;
 			cursor_trail = 1;
 			foreground = "#ffceff";
