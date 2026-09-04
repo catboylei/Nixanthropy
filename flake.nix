@@ -74,7 +74,7 @@
 			};
 
 			modules = [
-				./hosts/meow/mraow-main.nix
+				./hosts/mraow/mraow-main.nix
 
 				home-manager.nixosModules.home-manager
 				niri.nixosModules.niri
