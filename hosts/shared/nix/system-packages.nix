@@ -6,7 +6,7 @@
 			fastfetch
 			git
 			hyfetch
-			neovim
+			#neovim
 			nh
 			pwvucontrol
 			brightnessctl
@@ -14,8 +14,8 @@
 			awww
 			vesktop
 			# jetbrains.idea # im going to kill jetbrains with hammers
-			jetbrains.webstorm
-			jetbrains.clion
+			# jetbrains.webstorm
+			# jetbrains.clion
 			rmpc
 			grim
 			wl-clipboard
@@ -33,6 +33,7 @@
 			inputs.paw-bar.packages.${sys}.default
 			inputs.zen-browser.packages.${sys}.default
 			inputs.formatter.packages.${sys}.default
+			inputs.meowvim.packages.${sys}.default
 			#inputs.kidex.packages.${pkgs.stdenv.hostPlatform.system}.kidex
 		];
 }

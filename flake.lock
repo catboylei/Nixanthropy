@@ -144,6 +144,42 @@
         "type": "github"
       }
     },
+    "meowvim": {
+      "inputs": {
+        "mnw": "mnw",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1788543480,
+        "narHash": "sha256-j9Ry+00eKsSBuahBrRhA2o0yHkLSGVhx/U2fvVo/yvA=",
+        "owner": "itsyunaya",
+        "repo": "meowvim",
+        "rev": "4cea26775fff76d92d2b5e172ae53b682816d94f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "itsyunaya",
+        "repo": "meowvim",
+        "type": "github"
+      }
+    },
+    "mnw": {
+      "locked": {
+        "lastModified": 1784154424,
+        "narHash": "sha256-HRn4O1X2ShYtbq5Egji72/aemyc2cIQicjRZD9hBqM8=",
+        "owner": "Gerg-L",
+        "repo": "mnw",
+        "rev": "0151d9fa87992cbeb67c86616fb9170dcec830b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Gerg-L",
+        "repo": "mnw",
+        "type": "github"
+      }
+    },
     "niri": {
       "inputs": {
         "niri-stable": "niri-stable",
@@ -260,6 +296,7 @@
         "anyrun-nixos-options": "anyrun-nixos-options",
         "formatter": "formatter",
         "home-manager": "home-manager",
+        "meowvim": "meowvim",
         "niri": "niri",
         "nixpkgs": "nixpkgs",
         "paw-bar": "paw-bar",

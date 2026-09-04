@@ -36,6 +36,11 @@
 		    inputs.nixpkgs.follows = "nixpkgs";
 		};
 
+		meowvim = {
+			url = "github:itsyunaya/meowvim";
+			inputs.nixpkgs.follows = "nixpkgs";
+		};
+
 		#kidex = {
 		#  url = "github:Kirottu/kidex";
 		#  inputs.nixpkgs.follows = "nixpkgs";
