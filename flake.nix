@@ -65,5 +65,20 @@
                 }
 			];
 		};
+
+		nixosConfigurations."mraow" = nixpkgs.lib.nixosSystem {
+			system = "x86_64-linux";
+
+			specialArgs = {
+				inherit inputs self;
+			};
+
+			modules = [
+				./hosts/meow/mraow-main.nix
+
+				home-manager.nixosModules.home-manager
+				niri.nixosModules.niri
+			];
+		};
 	};
 }

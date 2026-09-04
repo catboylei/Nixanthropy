@@ -40,6 +40,12 @@
     <td>✓</td>
   </tr>
   <tr>
+    <td>mraow</td>
+    <td>desktop</td>
+    <td>niri</td>
+    <td>✓</td>
+  </tr>
+  <tr>
     <td>shared</td>
     <td>shared</td>
     <td>N/A</td>
@@ -66,12 +72,12 @@ files:
     │   ├── meow-home.nix 
     │   ├── home-manager/ 
     │   └── nix/
-    └── shared/
-        ├── shared-main.nix 
-        ├── shared-home.nix 
-        ├── home-manager/ 
-        └── nix/
-
+    ├── shared/
+    │   ├── shared-main.nix 
+    │   ├── shared-home.nix 
+    │   ├── home-manager/ 
+    │   └── nix/
+    └── .../
 ```
 
 imports:
