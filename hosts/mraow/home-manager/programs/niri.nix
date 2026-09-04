@@ -13,18 +13,21 @@
 			];
 
 			outputs = {
-				DP-2 = {
-					mode = {
-						height = 2560;
-						width = 1440;
-						refresh = 164.83400;
-					};
-				};
 				DP-3 = {
 					mode = {
-						height = 1920;
-						width = 1080;
-						refresh = 143.98100;
+						width = 1920;
+						height = 1080;
+						refresh = 143.981;
+					};
+					transform = {
+						rotation = 90;
+					};
+				};
+				DP-2 = {
+					mode = {
+						width = 2560;
+						height = 1440;
+						refresh = 164.834;
 					};
 				};
 			};
