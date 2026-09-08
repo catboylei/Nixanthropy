@@ -7,4 +7,4 @@ done < <(find "$dir" -maxdepth 1 -type f -print0)
 
 pick="${files[RANDOM % ${#files[@]}]}"
 
-awww img "$pick"
+awww img --resize crop "$pick"

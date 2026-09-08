@@ -2,7 +2,7 @@
 # at a set interval.
 
 INTERVAL=60 # In seconds
-RESIZE_TYPE="fit"
+RESIZE_TYPE="crop"
 
 export AWWW_TRANSITION_FPS="${AWWW_TRANSITION_FPS:-60}"
 export AWWW_TRANSITION_STEP="${AWWW_TRANSITION_STEP:-2}"
