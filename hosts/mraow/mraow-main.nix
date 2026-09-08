@@ -9,7 +9,8 @@
 
 		./nix/nvidia.nix
 		./nix/pam.nix
-        	./nix/hardware-configuration.nix
+       	./nix/hardware-configuration.nix
+		./nix/power.nix
 	];
 
 	home-manager.users.lei = ./mraow-home.nix;

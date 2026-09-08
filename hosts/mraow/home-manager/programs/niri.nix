@@ -6,14 +6,14 @@
 			spawn-at-startup = [
 				{ argv = [ "anyrun" "daemon" ]; }
 				{ argv = [ "awww-daemon" ]; }
-				{ argv = [ "awww_randomize" ]; }
+				# { argv = [ "awww_randomize" ]; }
 				{ argv = [ "paw-bar" ]; }
 				{ argv = [ "hyprlock" ]; }
 				# { argv = [ "kidex" ]; } # file index daemon for anyrun plugin
 			];
 
 			outputs = {
-				DP-3 = {
+				"LG Electronics LG ULTRAGEAR 0x00040DE8" = {
 					mode = {
 						width = 1920;
 						height = 1080;
@@ -23,7 +23,7 @@
 						rotation = 90;
 					};
 				};
-				DP-2 = {
+				"HP Inc. HP X27qc CNC1352921" = {
 					mode = {
 						width = 2560;
 						height = 1440;
@@ -94,6 +94,8 @@
 				}
 			];
 
+			recent-windows.enable = false;
+			
 			binds = {
 				"Mod+Q".action.spawn = "kitty";
 				"Mod+R".action.spawn = "anyrun";
@@ -117,6 +119,7 @@
 				"Mod+Equal".action.set-column-width = "+10%";
 				"Mod+V".action.toggle-window-floating = {};
 				"Mod+Shift+V".action.switch-focus-between-floating-and-tiling = {};
+				"Mod+Tab".action.focus-monitor-next = {};
 				"Print" = {
 					allow-when-locked = true;
 					#action.screenshot-screen = {};
