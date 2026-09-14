@@ -6,5 +6,6 @@
         ./nix/programs.nix
         ./nix/greetd-autologin.nix
         ./nix/system-packages.nix
+		./nix/swap.nix
     ];
 }
