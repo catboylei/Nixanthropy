@@ -11,6 +11,7 @@
 		./home-manager/programs/kitty.nix
 		./home-manager/programs/git.nix
 		./home-manager/programs/rmpc.nix
+		./home-manager/programs/hk-skins.nix
 
 		./home-manager/services/mpd.nix
 		#./home-manager/services/cliphist.nix

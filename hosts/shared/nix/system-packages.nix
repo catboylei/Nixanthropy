@@ -25,6 +25,7 @@
 			pnpm
 			nodejs-slim
 			gale
+			lumafly
 
 			(pkgs.callPackage "${self}/packages/awww_randomize" { inherit pkgs self; })
 			(pkgs.callPackage "${self}/packages/awww_switch" { inherit pkgs self; })
